@@ -1,0 +1,241 @@
+:root{
+ /*Colors*/  
+  --bg:  #222e50ae;
+  --txt: #4b3b2a;
+  --h1: #FDBE33;
+}
+body{
+    background-color: #fff;
+}
+/* *********************************************************
+  Main Page
+********************************************************* */
+
+/*------------------------------------------------------------- 
+ About us
+---------------------------------------------------------------*/
+
+.about{  
+    background-color: #fff;
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 4;
+  }
+  #About,h1,h5{
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+  
+  #aboutimg{
+    z-index: 2;
+    background-image: url(../img/Ocrr/bg_2.jpg);
+    background-size: cover;
+    min-height:100vh;
+  }
+  
+  #IMG{
+    background-image: url(../img/Ocrr/cause-10.jpg);
+    background-size: cover;
+    min-height:100vh
+  }
+  #abouttxt{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    left: 5vh;
+  }
+
+.bg-section{
+	position: absolute;
+    left: 0;
+    top: 0;
+	width: 100%;
+	height: 100vh;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    -webkit-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+#Hometxt{
+    font-size: 1.3em;
+    color: white;
+    
+}
+#section01{
+    position: relative;
+    z-index: 2;
+    padding: 45vh 0;
+    background-size: cover;
+
+}
+#section01 .content-inner{
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+#section01 .inner-el{
+    font-size: 4rem;
+    position: relative;
+    text-align: center;
+    padding: 0 10px;
+    max-width:50px;
+}
+
+.orgstructure{
+  padding-top: 10vh;
+  background-color: #fff;
+  position: relative;
+  min-height: 100vh;
+  z-index: 10;
+}
+#leadingp{
+  text-align: center;
+  padding: 40px;
+  color: #000;
+}
+#leadingh{
+  text-align: center;
+  color: #000;
+}
+.orgstructure h3{
+  padding: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+  font-weight: 500;
+}
+
+.slider a{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8f8f8f;
+  padding: 5px;
+}
+.slider a:hover{
+  color: #1e2c56;
+  transition: ease-in-out;
+  transform:translateX(5px);
+  filter: drop-shadow(0 0 4px rgba(0, 6, 34, 0.5));
+}
+
+
+
+
+
+
+
+
+.slides {
+  max-width: 90vh;
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.members{
+  max-width: 100%;
+  min-height: 50vh;
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  
+}
+.members p{
+  background-color: #ededed;
+  padding: 20px;
+}
+
+.members img{
+  z-index: 2;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border: rgb(82, 82, 82) 1.5px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  top: 50px;
+}
+.members h{
+  padding: 0;
+  margin: 0;
+}
+#span{
+  width: 3px;
+  height: 320px;
+  background-color: #cfcfcf;
+  margin-top: 20px;
+  margin-right: 60px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+    #section01 .inner-el{
+        padding: 0 10px; 
+        font-size: 3rem;
+    }
+}
+
+
+@media(max-width: 767px){
+        
+    #section02,#section04,#section06{
+        padding: 40px 0;
+    }
+}
