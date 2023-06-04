@@ -1,0 +1,57 @@
+.slide1{
+    background-image: url(/img/hum/1.jpg)
+  }
+.slide2{
+    background-image: url(/img/hum/2.jpg)
+}
+.slide3{
+    background-image: url(/img/hum/3.jpg)
+}
+.slide4{
+    background-image: url(/img/hum/4.jpg)
+}
+.slide5{
+    background-image: url(/img/hum/5.jpg)
+}
+.slide6{
+    background-image: url(/img/hum/6.jpg)
+}
+.slide7{
+    background-image: url(/img/hum/7.jpg)
+}
+.slide8 {
+    background-image: url(/img/hum/8.jpg)
+}
+.slide9 {
+    background-image: url(/img/hum/9.JPG)
+}
+.slide10 {
+    background-image: url(/img/hum/10.jpg)
+}
+.slide11 {
+    background-image: url(/img/hum/11.jpg)
+}
+  
+.slider{
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    background: #000;
+    display: inline-flex;
+    overflow: hidden;
+}
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11 {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 62px;
+    padding-top: 138px;
+    font-weight: 800;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: 10;
+    transition: 1.4s;
+}

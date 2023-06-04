@@ -1,0 +1,34 @@
+.slide1 {
+    background-image: url(/img/health/1.jpg)
+  }
+.slide2 {
+    background-image: url(/img/health/2.jpg)
+}
+.slide3 {
+    background-image: url(/img/health/3.jpg)
+}
+
+  
+.slider {
+    position: absolute;
+    width: 400%;
+    height: 100%;
+    background: #000;
+    display: inline-flex;
+    overflow: hidden;
+}
+.slide1, .slide2, .slide3 {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-size: 62px;
+    padding-top: 138px;
+    font-weight: 800;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    z-index: 10;
+    transition: 1.4s;
+}
