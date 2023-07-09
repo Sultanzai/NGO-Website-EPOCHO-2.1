@@ -419,6 +419,7 @@ a:focus {
 }
 
 .about .about-tab .tab-content {
+    text-align: justify;
     padding: 15px 0 0 0;
     background: transparent;
 }
@@ -443,7 +444,6 @@ a:focus {
     background-color: #222e50;
 }
 #about-img{
-    background-image: url(img/Ocrr/cause-15.jpg);
     background-size:cover;
     align-items: center;
     z-index: 4;
@@ -452,9 +452,10 @@ a:focus {
 }
 #abouttxt h3{
     color: #FDBE33;
-    margin: 70px 40px;
+    margin: 30px 40px;
 }
 #aboutinfo{
+    text-align: justify;
     color: #fff;
     margin: 0 50px;
     font-size: 18px;
@@ -468,7 +469,11 @@ a:focus {
     width: 200px;
     height: 200px;
 }
-
+.about-info{
+    text-align: justify;
+    margin-right: 60px;
+    padding:10px;
+}
 
 .partners{
     margin-top: 40px;
@@ -695,7 +700,47 @@ h2{
 }
 
 
-
+/*******************************/
+/********* Donatioon CSS **********/
+/*******************************/
+#donation{
+    max-width: 100%;
+    min-height: 120vh;
+    text-align: center;
+    background-image: url(img/donation.jpg);
+    background-size: cover;
+    margin-bottom: -10vh;
+}
+#donation h1{
+    text-align: center;
+    margin-top: 35vh;
+}
+input{
+    margin-top: 60px;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 22px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    border: solid 2px #000;
+    border-radius: 5px;
+}
+#donationbtn{
+    left: 110px;
+    top: -240px;
+    width: 150px;
+    height: 60px;
+    background-color: #222e50;
+    color: #fff;
+    border-radius: 0%;
+    box-shadow: 0 0 0 2px #fff;
+}
+#donationbtn:hover{
+    border: solid 2px #000;
+    transition: ease-in-out;
+}
 
 
 /*******************************/

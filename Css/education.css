@@ -28,9 +28,22 @@
 .slide10 {
   background-image: url(/img/edu/10.jpg)
 }
-.slide11 {
+.slide11{
   background-image: url(/img/edu/11.jpg)
 }
+.slide12{
+  background-image: url(/img/edu/12.jpg)
+}
+.slide13{
+  background-image: url(/img/edu/13.jpg)
+}
+.slide14{
+  background-image: url(/img/edu/14.jpg)
+}
+.slide15{
+  background-image: url(/img/edu/15.jpg)
+}
+
 
 
 .slider {
@@ -41,7 +54,7 @@
   display: inline-flex;
   overflow: hidden;
 }
-.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11 {
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8, .slide9, .slide10, .slide11, .slide12, .slide13, .slide14, .slide15 {
   position: absolute;
   background-position: center;
   background-size: cover;

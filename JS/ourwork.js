@@ -10,13 +10,15 @@ var svg = true;
 
 function leftSlide() {
 	if (click) {
-		if (curpage == 1) curpage = 5;
+		if (curpage == 1) curpage = 15;
 		console.log("woek");
+		console.log("At page",curpage)
+
 		sliding = true;
 		curpage--;
 		svg = true;
 		click = false;
-		for (k = 1; k <= 4; k++) {
+		for (k = 1; k <= 15; k++) {
 			var a1 = document.getElementById(pagePrefix + k);
 			a1.className += " tran";
 		}
@@ -24,7 +26,7 @@ function leftSlide() {
 			move();
 		}, 200);
 		setTimeout(() => {
-			for (k = 1; k <= 4; k++) {
+			for (k = 1; k <= 15; k++) {
 				var a1 = document.getElementById(pagePrefix + k);
 				a1.classList.remove("tran");
 			}
@@ -34,13 +36,14 @@ function leftSlide() {
 
 function rightSlide() {
 	if (click) {
-		if (curpage == 4) curpage = 0;
+		if (curpage == 15) curpage = 1;
 		console.log("woek");
+		console.log("At page ",curpage)
 		sliding = true;
 		curpage++;
 		svg = false;
 		click = false;
-		for (k = 1; k <= 4; k++) {
+		for (k = 1; k <= 15; k++) {
 			var a1 = document.getElementById(pagePrefix + k);
 			a1.className += " tran";
 		}
@@ -48,7 +51,7 @@ function rightSlide() {
 			move();
 		}, 200);
 		setTimeout(() => {
-			for (k = 1; k <= 4; k++) {
+			for (k = 1; k <= 15; k++) {
 				var a1 = document.getElementById(pagePrefix + k);
 				a1.classList.remove("tran");
 			}
@@ -75,7 +78,7 @@ function move() {
 			}
 		}
 		setTimeout(() => {
-			for (i = 1; i <= 4; i++) {
+			for (i = 1; i <= 15; i++) {
 				if (i == curpage) {
 					var a = document.getElementById(pagePrefix + i);
 					a.className += " up1";
@@ -129,6 +132,9 @@ document.onkeydown = e => {
 };
 
 //for codepen header
- setTimeout(() => {
- 	rightSlide();
- }, 100);
+for (t=100; t<=500000; t++){
+	setTimeout(() => {
+		rightSlide();
+	}, t);
+	t=t+8000	
+}
