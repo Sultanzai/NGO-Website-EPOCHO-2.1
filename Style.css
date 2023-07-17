@@ -375,6 +375,14 @@ a:focus {
         font-size: 14px;
         letter-spacing: 0;
     }
+    .about{
+        padding: 0;
+        margin-top: -20px;
+    }
+    .carousel-img{
+        height: 350px !important;
+    }
+
 }
 
 
@@ -385,7 +393,7 @@ a:focus {
 .about {
     position: relative;
     max-width: 100%;
-    padding: 45px 0;
+    padding: 20px 0;
 }
 
 .about .section-header {
@@ -395,7 +403,7 @@ a:focus {
 
 .about .about-img {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .about .about-tab {
@@ -432,23 +440,32 @@ a:focus {
     .about .section-header {
         margin-top: 30px;
     }
+    #about-img{
+        width: 0 !important;
+        height: 0 !important;
+    } 
+    .slick-slide img {
+        width: 250% !important;
+        padding-left: 50px !important;
+      }
+      .contact{
+        top: 100px !important;
+      }
 }
 
   
 /*------------------------------------------------------------- 
   Aboutus
 ---------------------------------------------------------------*/
-.aboutus{
-    max-width: 100%;
-    min-height: 700px;
+.about-container{
     background-color: #222e50;
+    display: flex;
 }
 #about-img{
+    width: 2000px;
     background-size:cover;
-    align-items: center;
+    background-position: center;
     z-index: 4;
-    max-width: 100%;
-    min-height: 700px;
 }
 #abouttxt h3{
     color: #FDBE33;
@@ -457,9 +474,19 @@ a:focus {
 #aboutinfo{
     text-align: justify;
     color: #fff;
-    margin: 0 50px;
     font-size: 18px;
+    margin: 2%;
 }
+
+
+
+
+
+
+
+
+
+
 .imgpart{
     margin-top: 20px;
     justify-content: center;
@@ -511,8 +538,8 @@ h2{
   }
   
   .slick-slide img {
-      width: 100%;
-  }
+    width: 100%;
+    }
   
   .slick-slider
   {
