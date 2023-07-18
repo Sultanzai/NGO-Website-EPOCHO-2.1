@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .flex-container{
+            background-color:aliceblue;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 10px;            
+        }
+        .flex-content{
+            padding: 10px;
+            /* flex-basis: 100px; */
+            /* flex-shrink: 0; */
+            /* flex: 0; */
+            /* flex: 0 0 100px;
+                1-grow 2-shrink 3-basis            
+            */
+            flex: 1;
+        }
+        .hh{
+            display: flex;
+            /* flex-basis: 100px; */
+        }
+        .html{
+            background-color: red;
+            
+        }
+        .css{
+            background-color: rgb(17, 0, 255);
+        }
+        .js{
+            background-color: rgb(17, 255, 0);
+            height: 100px;
+            /* flex: 2; */
+        }
+        .react{
+            background-color: rgb(242, 255, 0);
+        }
+        .reactjs{
+            background-color: rgb(255, 0, 217);
+            height: 54px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+    <div class="flex-container">
+    <!-- <div class="hh">  -->
+        <div class="flex-content html">HTML</div>
+        <div class="flex-content css">CSS</div>
+    <!-- </div> -->
+    <div class="flex-content js">JS</div>
+    <div class="flex-content react">REACT</div>
+    <div class="flex-content reactjs">REACTJS</div>
+    </div>
+</section>
+</body>
+</html>

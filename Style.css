@@ -382,6 +382,12 @@ a:focus {
     .carousel-img{
         height: 350px !important;
     }
+    .footer{
+        margin-top: 10px !important;
+        padding: 0px !important;
+        margin-bottom: 10px !important;
+        padding-bottom: 0% !important;
+    }
 
 }
 
@@ -477,13 +483,6 @@ a:focus {
     font-size: 18px;
     margin: 2%;
 }
-
-
-
-
-
-
-
 
 
 
@@ -1031,8 +1030,11 @@ input{
   @media only screen and (max-width: 480px) {
   #top-header{
     padding: 0;
-    padding-right: 10px;
-  }
+    padding-right: 0px;    
+    position: fixed;
+    }
+
+
   #section1{
     padding-top: 60px;
   }
