@@ -401,6 +401,9 @@ a:focus {
     max-width: 100%;
     padding: 20px 0;
 }
+#About{
+    text-shadow: 0px 0px 10px #fff;
+}
 
 .about .section-header {
     margin-bottom: 30px;

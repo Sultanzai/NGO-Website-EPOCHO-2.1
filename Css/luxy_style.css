@@ -214,6 +214,16 @@ body{
 }
 
 
+@media (max-width: 575.98px) {
+  
+.members img{
+    top: 10px;
+    left: -40px;
+}
+}
+
+
+
 
 
 
