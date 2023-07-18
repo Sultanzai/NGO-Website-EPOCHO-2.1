@@ -204,13 +204,12 @@ body{
   padding: 0;
   margin: 0;
 }
-#span{
+#span2{
   width: 3px;
   height: 320px;
   background-color: #cfcfcf;
   margin-top: 20px;
   margin-right: 60px;
-  
 }
 
 
@@ -219,6 +218,13 @@ body{
 .members img{
     top: 10px;
     left: -40px;
+}
+
+#span2{
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+  margin-top: 20px;
 }
 }
 
