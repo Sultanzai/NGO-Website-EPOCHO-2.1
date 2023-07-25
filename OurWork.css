@@ -209,11 +209,19 @@ circle {
     text-align:justify ;
 }
 
-
-
-
 @media (max-width: 700px) {
   .parent {
     margin-left: 1%;
+  }
+
+  #top-header {
+    position: absolute;
+    padding: 8px 5px;
+  }
+  .projectlist .row{
+    margin-left: 20px;
+  }
+  .projectlist img{
+    margin-left: 10px;
   }
 }
