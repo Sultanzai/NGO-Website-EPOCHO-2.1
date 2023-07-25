@@ -226,6 +226,13 @@ body{
   width: 0px;
   margin-top: 20px;
 }
+.members{
+  padding-left: 30px;
+  padding-right: 50px;
+  }
+  .slider a{
+    margin-left: 10px;
+  }
 }
 
 
