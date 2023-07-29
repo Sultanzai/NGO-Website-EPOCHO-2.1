@@ -69,3 +69,21 @@
   z-index: 10;
   transition: 1.4s;
 }
+
+
+
+@media (max-width: 480px) {
+  .parent{
+      width: 450px !important;
+      min-height: 100%;
+      margin-top: -35px;
+  }
+  .projectdes{
+      margin-top: 450px;
+      margin-left: 5px;
+      padding: 10px;
+  }
+  #projectinfo{
+      margin-left: 10px !important;
+  }
+}
