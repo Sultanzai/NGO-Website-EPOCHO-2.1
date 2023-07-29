@@ -203,6 +203,7 @@ circle {
     margin-top: 15vh;
     margin-left: 20px;
     text-transform: uppercase;
+    padding: 10px;
 }
 #projectinfo{
     margin-left: 10vh;
@@ -213,10 +214,9 @@ circle {
   .parent {
     margin-left: 1%;
   }
-
   #top-header {
     position: absolute;
-    padding: 8px 5px;
+    padding: 8px 5px; 
   }
   .projectlist .row{
     margin-left: 20px;

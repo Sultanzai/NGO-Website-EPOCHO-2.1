@@ -22,8 +22,8 @@
   
 .slider{
     position: absolute;
-    width: 400%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
     background: #000;
     display: inline-flex;
     overflow: hidden;

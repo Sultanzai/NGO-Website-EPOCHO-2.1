@@ -219,7 +219,9 @@ body{
     top: 10px;
     left: -40px;
 }
-
+#IMG{
+  display: none;
+}
 #span2{
   visibility: hidden;
   height: 0px;
