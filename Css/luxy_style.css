@@ -27,7 +27,10 @@ body{
     color: #000000;
     font-weight: 600;
 }
-
+#About-Image img{
+  max-width: 80%;
+  height: 100%;
+}
   
   #aboutimg{
     z-index: 2;
@@ -234,6 +237,9 @@ body{
   }
   .slider a{
     margin-left: 10px;
+  }
+  #About-Image img{
+    margin-left: 30px;
   }
 }
 
