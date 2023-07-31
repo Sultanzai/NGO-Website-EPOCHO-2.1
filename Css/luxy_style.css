@@ -268,4 +268,16 @@ body{
     #section02,#section04,#section06{
         padding: 40px 0;
     }
+    #About h5{
+      padding: 20px;
+    }
+    #aboutimg{
+      background-size:contain;
+      min-height:100vh;
+    }
+    #IMG{
+      max-width: 350px;
+      background-size: cover;
+      max-height:100vh
+    }
 }

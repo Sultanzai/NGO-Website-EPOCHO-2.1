@@ -32,10 +32,9 @@
   border: solid 2px #000;
 }
 .projectlist p{
-  padding: 0;
-  text-justify: auto;
+  padding-right: 30px;
+  text-align: justify !important;
   margin-top: 30px;
-  text-align: left;
   font-size: 18px;
   font-weight: 400;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
