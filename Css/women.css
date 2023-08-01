@@ -51,7 +51,7 @@
 
 @media (max-width: 480px) {
     .parent{
-        width: 450px !important;
+        width: 480px !important;
         min-height: 100%;
         margin-top: -35px;
     }

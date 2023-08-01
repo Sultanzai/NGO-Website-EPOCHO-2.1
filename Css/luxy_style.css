@@ -216,38 +216,6 @@ body{
 }
 
 
-@media (max-width: 575.98px) {
-  
-.members img{
-    top: 10px;
-    left: -40px;
-}
-#IMG{
-  display: none;
-}
-#span2{
-  visibility: hidden;
-  height: 0px;
-  width: 0px;
-  margin-top: 20px;
-}
-.members{
-  padding-left: 30px;
-  padding-right: 50px;
-  }
-  .slider a{
-    margin-left: 10px;
-  }
-  #About-Image img{
-    margin-left: 30px;
-  }
-}
-
-
-
-
-
-
 
 
 
@@ -257,14 +225,10 @@ body{
 
 @media(max-width: 767px){
     #section01 .inner-el{
+        overflow: hidden;
         padding: 0 10px; 
         font-size: 3rem;
-    }
-}
-
-
-@media(max-width: 767px){
-        
+    }   
     #section02,#section04,#section06{
         padding: 40px 0;
     }
@@ -275,9 +239,32 @@ body{
       background-size:contain;
       min-height:100vh;
     }
-    #IMG{
-      max-width: 350px;
-      background-size: cover;
-      max-height:100vh
-    }
 }
+
+@media (max-width: 575.98px) {
+  
+  .members img{
+      top: 10px;
+      left: -40px;
+  }
+  #IMG{
+    display: none;
+  }
+  #span2{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    margin-top: 20px;
+  }
+  .members{
+    padding-left: 30px;
+    padding-right: 50px;
+    }
+    .slider a{
+      margin-left: 10px;
+    }
+    #About-Image img{
+      margin-left: 35px;
+      max-height:  50vh !important;
+    }
+  }

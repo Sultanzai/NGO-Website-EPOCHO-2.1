@@ -74,13 +74,9 @@
 
 @media (max-width: 480px) {
   .parent{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 550px !important;
-      height: 100px;
-      margin-top: -35px;
-      overflow: hidden;
+    width: 480px !important;
+    min-height: 100%;
+    margin-top: -35px;
     }
   .projectdes{
       margin-top: 450px;
